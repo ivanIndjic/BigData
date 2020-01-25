@@ -1,10 +1,13 @@
 # About
-## Batch and stream processing application. Apache Spark used for both.
+## Application for batch and stream processing large amount of data using Apache Spark and Kafka.
 
 # Start
-1. Copy **Crimes_-_2001_to_present.csv to *HDFS using following commands
-   * Build docker containers
-   * Log in to namenode
+1. **Copy **Crimes_-_2001_to_present.csv to HDFS using following commands
+   *Build docker containers
+         bash
+     ```docker-compose build   
+      ```
+   *Log in to namenode
      bash
      ```docker exec -it namenode bash    
       ```
