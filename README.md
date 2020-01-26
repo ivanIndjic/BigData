@@ -1,8 +1,11 @@
 # About
 ## Application for batch and stream processing large amount of data using Apache Spark and Kafka.
 
+
 # Start
-#### 1. Copy Crimes_-_2001_to_present.csv to HDFS using following commands:
+#### 1. Unzip csv files in producer directory and Data directory
+
+#### 2. Copy Crimes_-_2001_to_present.csv to HDFS using following commands:
 
 ```sh
 docker-compose build
@@ -11,7 +14,7 @@ docker exec -it namenode bash
 hdfs dfs -mkdir /crimes
 hdfs dfs -put /crimes /crimes
 ```
-#### 2. Batch processing
+#### 3. Batch processing
 ```sh
  docker exec spark-master spark/bin/spark-submit myspark/batch.py
 ```
@@ -19,7 +22,7 @@ You can always see logs of all running containers
 ```sh
  docker logs -f {CONTAINER_ID}|{CONTAINER_NAME}
 ```
-#### 3. Stream processing
+#### 4. Stream processing
 
 Stream processing task is divided into 2 seperate files. You need to run them both using following commands.
 
