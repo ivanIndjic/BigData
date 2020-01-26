@@ -1,6 +1,10 @@
 # About
 ## Application for batch and stream processing large amount of data using Apache Spark and Kafka.
-
+### In this project main goal is to process data from csv files sored in `Data` folder and `producer` folder and using them calculate:
+- Number of crimes sorted by year
+- Percentage of domestic violence
+- Most dangerous parts of Chicago
+- Most frequent crime acts
 
 # Start
 #### 1. Unzip csv files in producer directory and Data directory
