@@ -1,6 +1,6 @@
 # About
 ## Application for batch and stream processing large amount of data using Apache Spark and Kafka.
-### In this project main goal is to process data from csv files sored in `Data` folder and `producer` folder and using them calculate:
+### In this project main goal is to process data from csv files stored in `Data` folder and `producer` folder and using them calculate:
 - Number of crimes sorted by year
 - Percentage of domestic violence
 - Most dangerous parts of Chicago
@@ -62,5 +62,5 @@ Finally, shut down all containers: ```docker-compose down```
 
 > IMPORTANT!
 Maybe you will get error message saying that namenode is in safe mode.
-In this case do the following:
+In that case do the following:
 ```docker exec namenode hadoop dfsadmin -safemode leave```
