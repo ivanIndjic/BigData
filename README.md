@@ -1,12 +1,12 @@
-# About
-## Application for batch and stream processing large amount of data using Apache Spark and Kafka.
-### In this project main goal is to process data from csv files stored in `Data` folder and `producer` folder and using them calculate:
+## Big Data Project
+#### The main goal of this project is to analyze and process large amount of data. This goal was achieved using Docker, Kafka and Apache Spark.
+#### Using these technologies we managed to analyze data and produce informations about following topics:
 - Number of crimes sorted by year
 - Percentage of domestic violence
 - Most dangerous parts of Chicago
 - Most frequent crime acts
 
-# Start
+### Start
 #### 1. Unzip csv files in producer directory and Data directory
 
 #### 2. Copy Crimes_-_2001_to_present.csv to HDFS using following commands:
