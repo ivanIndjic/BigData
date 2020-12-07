@@ -6,7 +6,7 @@
 - Most dangerous parts of Chicago
 - Most frequent crime acts
 
-### Start
+### Let's begin with our work
 #### 1. Unzip csv files in producer directory and Data directory
 
 #### 2. Copy Crimes_-_2001_to_present.csv to HDFS using following commands:
