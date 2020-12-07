@@ -37,7 +37,7 @@ docker exec spark-master spark/bin/spark-submit --packages org.apache.spark:spar
 ```sh
 docker exec spark-master spark/bin/spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.4.4 stream/stream2.py zoo1:2181 year2k18 block2k18P
 ```
-Result of theese tasks is stored on HDFS. There is two possible ways how you can see them. First and easier way is to open Hue (HDFS UI). You can do this by going on Hue's web page: ```localhost:8888```. Other way is to login in namenode.  
+Result of these tasks is stored on HDFS. There is two possible ways how you can see them. First and easier way is to open Hue (HDFS UI). You can do this by going on Hue's web page: ```localhost:8888```. Other way is to login in namenode.  
 ```sh
 docker exec -it namenode bash
 hdfs dfs -ls /
