@@ -61,6 +61,6 @@ Stream results files:
 Finally, shut down all containers: ```docker-compose down```
 
 > IMPORTANT!
-Maybe you will get error message saying that namenode is in safe mode.
-In that case do the following:
+Maybe you will get an error message saying that namenode is in safe mode.
+In that case execute the following command:
 ```docker exec namenode hadoop dfsadmin -safemode leave```
